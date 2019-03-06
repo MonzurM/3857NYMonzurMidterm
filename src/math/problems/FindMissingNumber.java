@@ -13,5 +13,43 @@ public class FindMissingNumber {
          */
          int [] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
 
+        int [] ary = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
+
+        int expectedValue = expectation(10);
+
+        findMissingNum(ary, expectedValue);
+
+
+    }
+
+    public static int findMissingNum(int[] array, int expValue){
+        int missingNum;
+        int sum = 0;
+
+        for(int n: array){
+            sum += n;
+        }
+
+        missingNum = expValue - sum;
+        System.out.println("The missing number is : " + missingNum);
+        return missingNum;
+    }
+
+    public static int expectation(int n){
+        int sum = 0;
+
+        int[] array = new int[n]; //creates an array of size n
+
+        //Gives the array of size n values from 1 to n
+        for(int i=0; i < array.length; i++){
+            array[i] = i+1;
+        }
+
+        //finds the sum of the entire array
+        for(int s: array){
+            sum += s;
+        }
+
+        return sum;
     }
 }

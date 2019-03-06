@@ -29,6 +29,18 @@ public class LowestNumber {
 		for(String st:lowestValue){
 			System.out.println(st);
 		}
+		System.out.println(locateLowest(array));
+
 	}
 
+	public static int locateLowest(int[] array){
+		int min = array [0];
+		for(int i=0; i < array.length; i++){
+			if (array[i] < min){
+				min = array[i];
+			}
+		}
+		return min;
+	}
 }
+

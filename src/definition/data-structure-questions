@@ -1,39 +1,104 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+A: Data structures help us to organize data in an efficient manner.  This is
+especially helpful when we are working with large amounts of data.
 
 What are the various operations that can be performed on different Data Structures?
+A: Searching, inserting, deleting, sorting, merging, and traversing.
+
 List out the areas in which data structures are applied extensively?
+A: Database Management, Operating System, Compiler Design, Artificial Intelligence, and Statistical Analysis.
+
 what is an Array?
+A: A data structure that holds a fixed amount of one type of variable.
+
 what is the difference between the Array and ArrayList?
-what is LinkedList?
+A:The size of an array cannot be changed after it has been declared.
+With an ArrayList, it is more dynamic by nature, thus allowing for changes to the data structure.
+
+What is LinkedList?
+A: LinkedList is a linear data structure where each element(node) consists of the data, as well as
+a reference to the next node.
+
 How is an Array different from Linked List?
-what is queue?
-what is stack?
-what is FIFO and LIFO?
+A: Elements in an array only contain the data item.  In a LinkedList, however, each element contains
+the data element as well as a reference to the next element, and in some cases it will contain both a
+reference to both the previous and next element.
+
+
+What is queue?
+A: Queue is an interface used for holding elements prior to processing.  Provides insertion, removal, and
+inspection operations.
+
+What is stack?
+A: A stack is a data structure that allows data to be inserted and removed (via the push and pop operations,
+respectively). Operates in LIFO order.
+
+
+What is FIFO and LIFO?
+A: First in First Out and Last in First Out.
+
 what is the order of complexity?
+A: Defines the mathematical complexity of an operation.  Operation will process faster if the operation
+being performed is not as complex.  It will be slower with a more complex operation being performed.
+
 what is the best case to search an element from an array?
+A: Best case is if the element that we are searching for is located at
+index 0 of the array.
+
 what is the worst case to search an element from an array?
+A: Worst case is if the element that we are searching for is located at
+the final index of the array.
+
+
 what is tree in data structure?
+A: Tree is a nonlinear data structure where data is stored in hierarchical fashion
+with each element(called node) stemming fro mthe previous element.  The first node is called the
+root node.
+
 what is graph in data structure?
+A: Graph is a non linear data structure.  Contains sets of arrays and edges.
+
 what is the difference between the HashTable and HashMap?
-What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A:HashTable is synchronized and can't contain null key value.  HashMap is not synchronized and it can
+contain null key values.
+
+What are the major data structures used in the following areas :
+RDBMS, Network data model and Hierarchical data model?
+A:Oracle, mySql, mongoDB...
+
+
+
 How HashMap works in java?
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+
 What are the different ways of copying an array into another array?
+
 What is difference between an array and a linked list?
+
 What is DFS and BFS?
+A: Depth First Search and Breadth First Search.
+
 What is Recursion?
+A: Recursion is a programming technique where a method calls on itself in order to
+solve a problem.
+
 What are linear and non linear data Structures?
+A: Linear data structures work in sequential order where one element of data can be directly reached.
+Non linear data structures work in non sequential order.  Each data item is attached to others in a specific
+way to reflect the relationships between those items.
+
 What is Big-(O)-notation?
+A: Big -(O)-notation is used to describe the performance or complexity of an algorithm. Simply put
+it describes how long it takes for an algorithm to run.
+
 Outlined different kind of sorting algorithm with time complexity?
+A:
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
-
-
